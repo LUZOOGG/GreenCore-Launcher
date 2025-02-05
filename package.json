@@ -1,20 +1,20 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "2.0.7",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "name": "greencore-launcheur",
+    "preductname": "GreenCore Launcher",
+    "version": "1.0.1",
+    "description": "Launcher Mincraft pour le serveur GreenCore",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
-        "email": "contact@luuxis.fr",
-        "url": "https://github.com/luuxis"
+        "name": "LUZOGG, Inc.",
+        "email": "luzoggho@luzogg.hosterfy.net",
+        "url": "https://github.com/LUZOOGG"
     },
-    "url": "http://launcher.luuxis.fr",
+    "url": "http://luzogg.hosterfy.net/minecraft",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://cdn.discordapp.com/attachments/1035335980305096803/1336507262893555722/static.png?ex=67a40ee2&is=67a2bd62&hm=4fc95dde273d87ddd391de9c4766fccf9bd48989f59b6d5096269f5abc8611ab&"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/LUZOOGG/GreenCore-Launcher.git"
     }
 }
