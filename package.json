@@ -1,7 +1,7 @@
 {
     "name": "greencore-launcheur",
     "preductname": "GreenCore Launcher",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "description": "Launcher Mincraft pour le serveur GreenCore",
     "main": "src/app.js",
     "author": {
